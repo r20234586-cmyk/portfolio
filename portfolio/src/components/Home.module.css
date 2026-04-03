@@ -1,0 +1,50 @@
+.container {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 5%;
+}
+
+.content {
+  max-width: 700px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #64ffda;
+}
+
+.text {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccd6f6;
+  margin: 20px 0;
+}
+
+
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}

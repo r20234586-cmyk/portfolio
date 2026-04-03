@@ -1,0 +1,29 @@
+.container {
+  padding: 60px 5%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #64ffda;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccd6f6;
+}
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
